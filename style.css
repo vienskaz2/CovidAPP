@@ -1,0 +1,28 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(45, 45, 46);
+   
+}
+
+#Title {
+    color: white;
+    font-family: 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+
+#display_image {
+    width: 400px; /* Specify the unit for width */
+    height: 400px; /* Specify the unit for height */
+    border: 1px solid black;
+    margin-top: 20px; /* Add some space between the title and the image */
+}
+
+#prediction {
+    color: white;
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 30px; /* Reduce the font size for better fit */
+    margin-top: 20px; /* Add some space between the image and the prediction */
+    text-align: center;
+}
